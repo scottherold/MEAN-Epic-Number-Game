@@ -1,0 +1,13 @@
+.content-box {
+    position: absolute;
+    top: 30%;
+    -ms-transform: translateY(-30%);
+    transform: translateY(-30%);
+}
+
+.reset-box {
+    position: absolute;
+    top: 55%;
+    -ms-transform: translateY(-90%);
+    transform: translateY(-90%);
+}
