@@ -16,7 +16,7 @@ module.exports = (app, server) => {
     // <--- Sockets --->
     io.on('connection', socket => {
         // send data on connect
-        socket.emit('updateCounter', {count: counter}); // braodcasts updated counter to new connection only
+        socket.emit('updateCounter', {count: counter}); // emits updated counter to new connection only
 
         // count emitted from client
         socket.on('count', () => {
